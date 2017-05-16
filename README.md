@@ -28,11 +28,11 @@
 	*
 	* This works by inserting a row of clickable spans.
 	* however getting the original image turns out to be rather difficult
-	* some clever user (credit to: u/sotopheavy and u/MeNoGoodReddit) has figured out that you can find
-	* the original image by a script that he wrote.
+	* some clever users (credit to: u/sotopheavy and u/MeNoGoodReddit) have figured out that you can find
+	* the original image by a script that they wrote.
 	* yet this only works on the IG single page view.
 	*
-	* so the download now works by creating an IFrame when a button is clicked
+	* the download now works by creating an IFrame when a button is clicked
 	* waiting for the time defined in window.DOWLOAD_WAIT_TIME
 	* (the iframe has to load)
 	* then changing the content of the spans to a <a href=* dowload>...</a> tag.
